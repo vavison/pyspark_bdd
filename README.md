@@ -6,7 +6,7 @@ Simple examples of using pytest-bdd to test scenarios in pyspark.
 
 You will need to [install poetry](https://python-poetry.org/docs/#installation) and run `poetry install` to initialise the virtual environment.
 
-Then you can run `poetry run pytest` and view the output of the BDD tests.
+Then you can run `poetry run pytest --gherkin-terminal-reporter --verbose` and view the output of the BDD tests.
 
 ## Why BDD for PySpark?
 
